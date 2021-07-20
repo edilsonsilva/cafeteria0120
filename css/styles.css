@@ -127,7 +127,26 @@ main #imghome img:hover{
 
 /* -------- Fim da formatação da página index ----------------- */
 
+/* ------- início da formatação da página historia ---------- */
 
+main #imghistoria{
+  text-align: center;
+}
+main #imghistoria img{
+  width: 300px;
+  height: 300px;
+  margin: 10px
+}
+
+main #video{
+  text-align: center;
+}
+main #video iframe{
+  width: 90%;
+  height:400px;
+}
+
+/* ------- Fim da formatação da página historia ------------- */
 
 
 
