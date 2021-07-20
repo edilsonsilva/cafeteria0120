@@ -45,3 +45,63 @@ header nav ul li a {
 header nav ul li a:hover {
   color: red;
 }
+
+footer{
+  /* aplicar uma cor de fundo ao rodapé */
+  background-color: rgb(114, 37, 2);
+  /* aplicar margem interna */
+  padding:20px;
+  padding-top: 40px;
+  height: 110px;/*Altura do rodape*/
+}
+
+/* Para fazer uma formatação em uma tag que um id definido é necessário que 
+você dicione um sustenido(#) ao inicio do nome do id. Neste caso nossa div
+tem id chamado end, então aplicamos desta forma: #end */
+footer #end{
+  color:#fff;
+  font-family: verdana;
+  font-size:10pt;
+  float:left;
+  /* border:solid 1px green; */
+}
+footer #redes{
+  /* border:solid 1px green; */
+  float:right;
+}
+footer #redes a{
+  text-decoration: none;
+}
+
+footer #redes a img{
+  width:40px; /*diminuir a largura da imagem*/
+  height: 40px;/*diminuir a altura da imagem*/
+  margin:5px;
+  transition: ease .5s;
+}
+
+footer #redes a img:hover{
+  /* realizar uma rotação de 360 graus(deg) */
+  transform: rotate(360deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
