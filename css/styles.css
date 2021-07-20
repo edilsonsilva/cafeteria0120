@@ -46,6 +46,8 @@ header nav ul li a:hover {
   color: red;
 }
 
+
+
 footer{
   /* aplicar uma cor de fundo ao rodapé */
   background-color: rgb(114, 37, 2);
@@ -84,6 +86,62 @@ footer #redes a img:hover{
   /* realizar uma rotação de 360 graus(deg) */
   transform: rotate(360deg);
 }
+
+/* -------- Início da formatação da página index--------------- */
+
+main h2{
+  font-family: arial;
+  font-size:15pt;
+  margin:50px;
+  border-bottom: #600 1px solid;
+}
+
+main p{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom:30px;/*margem na parte inferior de cada paragrafo*/
+  text-align: justify;/* alinhamento do texto justificado*/
+  font-size: 12pt; /*tamanho da letra do texto*/
+  line-height: 20pt;/*altura da linha, que dá um efeito de espaçamento entre linhas*/
+  font-family: arial;
+}
+
+main #imghome{
+  text-align: center;
+}
+
+main #imghome img{
+  width: 500px; /*largura da imagem*/
+  height: 500px;/*altura da imagem*/
+  /* vamos arredondar os cantos da imagem com o comando
+  border-radius. O valor pode ser em pixel ou porcentagem */
+  border-radius:50%;
+  margin:10px;
+  opacity:0.6;
+  transition: ease 0.5s;
+}
+main #imghome img:hover{
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+/* -------- Fim da formatação da página index ----------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
