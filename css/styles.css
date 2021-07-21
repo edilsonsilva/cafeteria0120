@@ -207,3 +207,54 @@ main #mapa iframe {
 }
 
 /* ------- Fim da formatação da página localização */
+
+/* ---- Início da formatação da página contato ------*/
+
+form {
+  border: 1px solid silver;
+  width: 500px;
+
+  /* para alinha o formulário ao centro iremos
+  utilizar o comando margin-left: auto e o comando
+  margin-right:auto; */
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+/* Vamos fazer a formatação dos elementos do formulário 
+capturando todos seus respectivos tipos. Veja abaixo */
+input[type="text"],
+input[type="email"],
+form span,
+textarea {
+  display: block;
+  width: 96%;
+  margin: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-family: arial;
+  font-size: 10pt;
+}
+
+select {
+  margin: 5px;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type="submit"] {
+  width: 60px;
+  height: 60px;
+  background-color: #600;
+  border-radius: 50%;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/*----- Fim da formatação da página contato ---------*/
