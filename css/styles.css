@@ -46,81 +46,79 @@ header nav ul li a:hover {
   color: red;
 }
 
-
-
-footer{
+footer {
   /* aplicar uma cor de fundo ao rodapé */
   background-color: rgb(114, 37, 2);
   /* aplicar margem interna */
-  padding:20px;
+  padding: 20px;
   padding-top: 40px;
-  height: 110px;/*Altura do rodape*/
+  height: 110px; /*Altura do rodape*/
 }
 
 /* Para fazer uma formatação em uma tag que um id definido é necessário que 
 você dicione um sustenido(#) ao inicio do nome do id. Neste caso nossa div
 tem id chamado end, então aplicamos desta forma: #end */
-footer #end{
-  color:#fff;
+footer #end {
+  color: #fff;
   font-family: verdana;
-  font-size:10pt;
-  float:left;
+  font-size: 10pt;
+  float: left;
   /* border:solid 1px green; */
 }
-footer #redes{
+footer #redes {
   /* border:solid 1px green; */
-  float:right;
+  float: right;
 }
-footer #redes a{
+footer #redes a {
   text-decoration: none;
 }
 
-footer #redes a img{
-  width:40px; /*diminuir a largura da imagem*/
-  height: 40px;/*diminuir a altura da imagem*/
-  margin:5px;
-  transition: ease .5s;
+footer #redes a img {
+  width: 40px; /*diminuir a largura da imagem*/
+  height: 40px; /*diminuir a altura da imagem*/
+  margin: 5px;
+  transition: ease 0.5s;
 }
 
-footer #redes a img:hover{
+footer #redes a img:hover {
   /* realizar uma rotação de 360 graus(deg) */
   transform: rotate(360deg);
 }
 
 /* -------- Início da formatação da página index--------------- */
 
-main h2{
+main h2 {
   font-family: arial;
-  font-size:15pt;
-  margin:50px;
+  font-size: 15pt;
+  margin: 50px;
   border-bottom: #600 1px solid;
 }
 
-main p{
+main p {
   margin-left: 100px;
   margin-right: 100px;
-  margin-bottom:30px;/*margem na parte inferior de cada paragrafo*/
-  text-align: justify;/* alinhamento do texto justificado*/
+  margin-bottom: 30px; /*margem na parte inferior de cada paragrafo*/
+  text-align: justify; /* alinhamento do texto justificado*/
   font-size: 12pt; /*tamanho da letra do texto*/
-  line-height: 20pt;/*altura da linha, que dá um efeito de espaçamento entre linhas*/
+  line-height: 20pt; /*altura da linha, que dá um efeito de espaçamento entre linhas*/
   font-family: arial;
 }
 
-main #imghome{
+main #imghome {
   text-align: center;
 }
 
-main #imghome img{
+main #imghome img {
   width: 500px; /*largura da imagem*/
-  height: 500px;/*altura da imagem*/
+  height: 500px; /*altura da imagem*/
   /* vamos arredondar os cantos da imagem com o comando
   border-radius. O valor pode ser em pixel ou porcentagem */
-  border-radius:50%;
-  margin:10px;
-  opacity:0.6;
+  border-radius: 50%;
+  margin: 10px;
+  opacity: 0.6;
   transition: ease 0.5s;
 }
-main #imghome img:hover{
+main #imghome img:hover {
   opacity: 1;
   transform: scale(1.2);
 }
@@ -129,56 +127,74 @@ main #imghome img:hover{
 
 /* ------- início da formatação da página historia ---------- */
 
-main #imghistoria{
+main #imghistoria {
   text-align: center;
 }
-main #imghistoria img{
+main #imghistoria img {
   width: 300px;
   height: 300px;
-  margin: 10px
+  margin: 10px;
 }
 
-main #video{
+main #video {
   text-align: center;
 }
-main #video iframe{
+main #video iframe {
   width: 90%;
-  height:400px;
+  height: 400px;
 }
 
 /* ------- Fim da formatação da página historia ------------- */
 
+/* -------- Início da formatação da página cardápio--------- */
 
+/* main #area,
+main #area #conteudo,
+main #area #conteudo #img,
+main #area #conteudo #texto {
+  border: 2px solid lime;
+} */
 
+main #area #conteudo #img img {
+  width: 200px;
+  height: 180px;
+}
+main #area #conteudo #img {
+  width: 210px;
+  /* Fazer a caixa de imagem flutuar para a esquerda */
+  float: left;
+}
 
+main #area #conteudo #texto {
+  width: 600px;
+  float: left;
+}
 
+/* aplicar a exibição(display) inline-block para as
+caixas area e conteudo */
+main #area,
+main #area #conteudo {
+  display: inline-block;
+  width: 90%;
+}
+main #area #conteudo #texto h5 {
+  font-family: arial;
+  font-size: 14pt;
+  margin: 5px;
+}
+main #area #conteudo #texto span {
+  color: red;
+}
 
+main #area #conteudo {
+  margin-left: 50px;
+  /* aplicar uma borda na parte inferior desta caixa */
+  border-bottom: 1px solid silver;
+}
+main h3 {
+  font-family: arial;
+  font-size: 20pt;
+  margin: 50px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*--------- Fim da formatação da página cardápio -----------*/
